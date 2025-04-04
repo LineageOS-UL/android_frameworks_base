@@ -68,6 +68,8 @@
     <string name="accessibility_dpad_left">Cursor a la esquierda</string>
     <string name="accessibility_dpad_right">Cursor a la derecha</string>
     <string name="status_bar_firewall">Tornafuéu</string>
+    <string name="screenshot_delete_label">Desaniciar</string>
+    <string name="screenrecord_delete_label">Desaniciar</string>
     <string name="screenrecord_delete_description">Desanicióse la grabación de la pantalla</string>
     <string name="screenrecord_stopdot_label">Amosar el puntu de parada</string>
     <string name="screenrecord_stopdot_summary">Tenlu primíu pa movelu</string>
@@ -79,4 +81,5 @@
     <string name="screenrecord_skip_time_summary">Quita la espera de 3 segundos</string>
     <string name="screenrecord_hevc_switch_label">Codificación HEVC</string>
     <string name="screenrecord_hevc_switch_summary">Usa un codificador HEVC más eficiente</string>
+    <string name="battery_notification_channel_tv">Alvertencia de la batería</string>
 </resources>
