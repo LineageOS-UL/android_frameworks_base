@@ -150,6 +150,10 @@ cc_library_shared {
 // Aidl library for platform compat.
 cc_library_shared {
     name: "lib-platform-compat-native-api",
+    // libcamera_client (frameworks/av/camera) is vendor_available for the
+    // legacy device/asus/flo camera HAL; this is a transitive dependency.
+    // Only depends on libbinder/libutils, both already vendor-safe.
+    vendor_available: true,
     cflags: [
         "-Wall",
         "-Werror",
