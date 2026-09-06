@@ -154,6 +154,7 @@ cc_library_shared {
     // legacy device/asus/flo camera HAL; this is a transitive dependency.
     // Only depends on libbinder/libutils, both already vendor-safe.
     vendor_available: true,
+    double_loadable: true,
     cflags: [
         "-Wall",
         "-Werror",
